@@ -1,0 +1,17 @@
+{
+  "name": "express-cicd-demo",
+  "version": "1.0.0",
+  "description": "Simple Express app used for a beginner GitHub Actions CI/CD pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
